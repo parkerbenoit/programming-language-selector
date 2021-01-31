@@ -1,0 +1,15 @@
+#output1, #output2, #output3{
+  display: none;
+}
+
+
+.box1 {
+  margin: 12px;
+  border: 5px;
+  padding: 4px;
+  background-color: olive;
+}
+
+h1 {
+  text-align: center;
+}
