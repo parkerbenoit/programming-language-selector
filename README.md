@@ -1,8 +1,6 @@
 # Programming Language Selector
 
-#### {Brief description of application}, {Date of current version}
-
-#### By Parker Benoit
+#### By Parker Benoit 1/30/2021
 
 ## Description
 
