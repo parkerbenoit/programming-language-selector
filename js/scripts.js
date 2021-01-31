@@ -8,8 +8,16 @@ $(document).ready(function() {
     const question5 = parseInt($("input#question5").val());
     $("#selector").toggle();
 
-    if (question1 === question2) {
+    if (question1 === question2 || question1 == question3 || question1 == question4 || question1 == question5 || question2 == question3 || question2 == question4 || question2 == question5 || question3 == question4 || question3 == question5 || question4 == question5) {
       $("#output1").show();
+    } else if (question4 > question5) {
+      $("output3").show();
+    } else if (question5 > 3) {
+      $("output2").show();
+    } else if (question4 = 0) {
+      $("output1").show();
+    } else if (question2 > 0) {
+      $("output2").show();
     } else {
       $("#output3").show();
     }
